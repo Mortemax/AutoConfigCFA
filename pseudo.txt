@@ -1,0 +1,18 @@
+LeerXLSX()
+id = LeerAjustesEntrada()
+
+fila = BuscarFila(id)
+
+PARA CADA columna EN fila HACER
+    PARA CADA regla EN reglas HACER
+        SI regla.aplicable(columna) ENTONCES
+            PARA CADA opcion EN regla.opciones ENTONCES
+                SI opcion.es(columna.valor) ENTONCES
+                    opcion.actualizarXML()
+                FINSI
+            FINSI
+        FINSI
+    FINPARA
+FINPARA
+
+EscribirXML()
