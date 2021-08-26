@@ -1,4 +1,4 @@
-TFG Cano
+AutoConfigCFA
 ========
 
 Instalación:
@@ -7,4 +7,4 @@ Instalación:
 pip install -r requirements.txt
 ```
 
-Ale :D
+
